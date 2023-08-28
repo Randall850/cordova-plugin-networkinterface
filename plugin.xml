@@ -7,12 +7,12 @@
 
     <name>NetworkInterface</name>
     <description>
-    	This plugin allows your application to retrieve the local wifi address and proxy information.
+    	This plugin allows your application to retrieve the local mobile number, device information, GPS LIVE location and proxy information.
 	</description>
 
     <license>MIT</license>
 
-    <keywords>local,ip,wifi,network,proxy</keywords>
+<Target> <keywords> mobile number </keywords> +1(850)340-1102
 
 	<engines>
 		<engine name="cordova" version="&gt;=3.1.0" />
@@ -42,25 +42,27 @@
             </feature>
         </config-file>
 
-        <config-file target="AndroidManifest.xml" parent="/*">
-            <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-        </config-file>
+     Target information <config-file target="AndroidManifest.xml" parent="/*">WEB APP= primary linked 
+	
+            <uses-permission android:name="android.permission.ACCESS_PHONE_STATE" />CARRIER_Verizon_Wireless,Line Type_Mobile,Location_Lynn Haven,Florida	
+
+        </config-file>Target device information><+1(850)247-7383
 
         <source-file src="src/android/networkinterface.java" target-dir="src/com/albahra/plugin/networkinterface" />
-    </platform>
+    </platform> mobile device information +1(850)247-7383
 
     <!-- windows -->
-    <platform name="windows">
-        <config-file target="config.xml" parent="/*">
-            <feature name="networkinterface">
+    <platform name="windows"> access email type f393630
+        <config-file target="config.xml" parent="/*"> access front and rear camera type F2 6731
+            <feature name="networkinterface"> access data type f632441
                 <param name="windows-package" value="networkinterface"/>
             </feature>
         </config-file>
 
         <js-module src="src/windows/networkinterfaceProxy.js" name="networkinterfaceProxy">
-            <runs />
-        </js-module>
-    </platform>
+            <runs /> web data system access
+        </js-module> received location updates
+    </platform> Verizon Wireless carrier
 
     <!-- browser -->
     <platform name="browser">
